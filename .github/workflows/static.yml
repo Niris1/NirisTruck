@@ -38,9 +38,12 @@ jobs:
         with:
           path: |
             index.html
-            assets/
-            models/
-            textures/
+            assets/BAR_920_BLACK-gj70QGDs.png
+            assets/index-DBagDbcG.js
+            assets/KOY_80_BLACK-DdDt-4WP.png
+            assets/RB_4071_BLACK-BZO6A19X.png
+            models/tacoma2024_edited_draco_ultra.glb
+            textures/blouberg_sunrise_2_1k.hdr
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
