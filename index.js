@@ -23670,7 +23670,7 @@ async function W_() {
   }
   (In = new dg({ canvas: s, antialias: !0, powerPreference: "high-performance" })),
     In.setPixelRatio(window.devicePixelRatio),
-    In.setSize(window.innerWidth / 2, window.innerHeight / 2, !1),
+    In.setSize(window.innerWidth , window.innerHeight, !1),
     (In.toneMapping = Yc),
     (In.shadowMap.enabled = !1),
     (zi = new fg()),
@@ -23748,7 +23748,7 @@ function j_(s) {
 function K_() {
   (Qn.aspect = window.innerWidth / window.innerHeight),
     Qn.updateProjectionMatrix(),
-    In.setSize(window.innerWidth / 2, window.innerHeight / 2, !1),
+    In.setSize(window.innerWidth , window.innerHeight, !1),
     gs();
 }
 function Ul() {
